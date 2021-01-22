@@ -3,11 +3,13 @@
     <a-menu-item key='/base-index'>Main</a-menu-item>
     <a-menu-item key='/fms'>FMS</a-menu-item>
     <a-menu-item key='/umi'>UMI</a-menu-item>
+    <a-menu-item key='/react'>React</a-menu-item>
   </a-menu>
   <router-view></router-view>
 
   <div id="fms"></div>
   <div id="umi"></div>
+  <div id='root'></div>
 </template>
 
 <script>
